@@ -1,4 +1,7 @@
 1 - O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?
+	Commit serve para salvar todas as alterações feitas em uma branch antes dela ser enviada para a branch principal, como um log de tudo que é alterado em um arquivo para que assim as alterações sejam percebidas e aprovadas ou não. 
+	Push serve para enviar os commits da sua branch local para um repositório remoto. 
+	Pop serve para salvar a última alteração em um arquivo.
 2 – Quais sáo as vantagens de usar Branchs num repositório git?
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
 que consistem e como podem ser resolvidos esses conflitos?
