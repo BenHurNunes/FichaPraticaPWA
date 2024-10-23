@@ -3,6 +3,7 @@
 	Push serve para enviar os commits da sua branch local para um repositório remoto. 
 	Pop serve para salvar a última alteração em um arquivo.
 2 – Quais sáo as vantagens de usar Branchs num repositório git?
+	Poder fazer alterações nos arquivos de forma mais organizada e sem mexer com o arquivo original sem antes autoriza-lo.
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
 que consistem e como podem ser resolvidos esses conflitos?
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
