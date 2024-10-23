@@ -6,5 +6,6 @@
 	Poder fazer alterações nos arquivos de forma mais organizada e sem mexer com o arquivo original sem antes autoriza-lo.
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
 que consistem e como podem ser resolvidos esses conflitos?
+	Quando você tenta realizar um merge pop e há alterações conflitantes, o Git pausa o processo e marca os arquivos que precisam de atenção. Para resolver esses conflitos, precisamos analisar cada alteração em cada arquivo e decidir qual arquivo será adicionado, podemos fazer isso combinando as alterações, incluindo uma das versões ou criando uma nova solução do zero. 
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
 diferenças entre eles?
