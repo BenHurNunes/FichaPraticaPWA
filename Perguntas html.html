@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações de Git</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .italic {
+            font-style: italic;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Operações de Git</h1>
+
+<ol>
+    <li>
+        <span class="bold">O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?</span>
+        <p>
+            <span class="italic">Commit</span> serve para salvar todas as alterações feitas em uma branch antes dela ser enviada para a branch principal, como um log de tudo que é alterado em um arquivo para que assim as alterações sejam percebidas e aprovadas ou não.
+        </p>
+        <p>
+            <span class="italic">Push</span> serve para enviar os commits da sua branch local para um repositório remoto.
+        </p>
+        <p>
+            <span class="italic">Pop</span> serve para salvar a última alteração em um arquivo.
+        </p>
+    </li>
+    
+    <li>
+        <span class="bold">Quais são as vantagens de usar Branchs num repositório git?</span>
+        <p>
+            Poder fazer alterações nos arquivos de forma mais organizada e sem mexer com o arquivo original sem antes autorizá-lo.
+        </p>
+    </li>
+    
+    <li>
+        <span class="bold">Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?</span>
+        <p>
+            Quando você tenta realizar um merge pop e há alterações conflitantes, o Git pausa o processo e marca os arquivos que precisam de atenção. Para resolver esses conflitos, precisamos analisar cada alteração em cada arquivo e decidir qual arquivo será adicionado. Podemos fazer isso combinando as alterações, incluindo uma das versões ou criando uma nova solução do zero.
+        </p>
+    </li>
+    
+    <li>
+        <span class="bold">“Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?</span>
+        <p>
+            A diferença entre <span class="italic">Clone</span> e <span class="italic">Fork</span> é que o <span class="italic">Clone</span> cria um repositório local que pode ser alterado à vontade sem mexer no repositório online dentro do GitHub até que seja pedido a alteração no repositório online, já o <span class="italic">Fork</span> cria um repositório igual na sua conta dentro do GitHub.
+        </p>
+    </li>
+</ol>
+
+</body>
+</html>
